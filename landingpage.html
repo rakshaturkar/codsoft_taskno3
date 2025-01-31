@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        /* Reset basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Header styling */
+        header {
+            background: #45df4a;
+            color: rgb(6, 6, 6);
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Navigation bar styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
+        }
+
+        /* Main sections styling */
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .section:nth-child(even) {
+            background: #f4f4f4;
+        }
+
+        /* About section with background image */
+        #about {
+            background: url("Sector.jpg") no-repeat center center/cover; /* Background image */
+            color: rgb(73, 71, 71); /* Ensure text is visible */
+            padding: 70px 20px;
+        }
+
+        .about-columns {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .about-columns div {
+            flex: 1;
+            max-width: 300px;
+            margin: 10px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+            color: white; /* Ensure text is visible on dark background */
+            border-radius: 10px;
+        }
+
+        /* Footer styling */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Landing Page</h1>
+    <p>Your one-stop solution for web design inspiration.</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <div class="about-columns">
+        <div>
+            <h3>Who We Are</h3>
+            <p>We are a team of creative designers and developers with a passion for building innovative websites.</p>
+        </div>
+        <div>
+            <h3>Our Mission</h3>
+            <p>To help businesses grow by providing top-notch web development solutions.</p>
+        </div>
+        <div>
+            <h3>Our Vision</h3>
+            <p>To be the leading provider of web design services worldwide.</p>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="section">
+    <h2>Our Services</h2>
+    <p>We provide a variety of web development services tailored to meet your needs.</p>
+</section>
+
+<section id="projects" class="section">
+    <h2>Our Projects</h2>
+    <p>Check out some of our recent work:</p>
+    <ul>
+        <li>Project 1: E-commerce Platform</li>
+        <li>Project 2: Portfolio Website</li>
+        <li>Project 3: Blog Application</li>
+    </ul>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: rakshaturkar@gmail.com</p>
+    <p>Phone:7666006084</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Landing Page. All rights reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</footer>
+
+</body>
+</html>
